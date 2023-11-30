@@ -16,3 +16,20 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.button {
+      background-color: #fafafa;
+      border: 2px solid #545454;
+      color: black;
+      padding: 15px 50px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 100px;
+      margin-left: 30px;
+}
+
+.button-start{
+  margin-left: 500px;
+}
