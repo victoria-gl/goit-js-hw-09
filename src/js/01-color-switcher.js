@@ -7,12 +7,14 @@ buttonStop.addEventListener("click", handleStop);
 
 buttonStop.setAttribute("disabled", "");
 
+let timerId = 0;
+
 function handleStart(event) {
     if (event.target.nodeName !== "BUTTON") {
         return;
       }
     
-    timerId = setInterval(() => {
+     timerId = setInterval(() => {
         bodyBtn.style.backgroundColor = getRandomHexColor();
     }, 1000);
 
