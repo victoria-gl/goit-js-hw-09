@@ -1,5 +1,6 @@
 // Описаний в документації
 import flatpickr from "flatpickr";
+flatpickr("#myID", {});
 
 // Додатковий імпорт стилів
 import "flatpickr/dist/flatpickr.min.css";
@@ -14,8 +15,8 @@ const selectors = {
         seconds: document.querySelector("span[data-seconds]"),
 };
 
-buttonStart.setAttribute("disabled", "");
-buttonStart.addEventListener("click", handleClick);
+// buttonStart.setAttribute("disabled", "");
+// buttonStart.addEventListener("click", handleClick);
 
 // console.log(selectors);
 
